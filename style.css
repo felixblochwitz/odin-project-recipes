@@ -1,10 +1,21 @@
 .background-image {
-  background-image: linear-gradient(to right, #6e99ff, white, white, #ff6e6e); 
+  background-image: linear-gradient(to right, #6e99ff, white, white, #ff6e6e);
 }
 
 .navigation-link {
   color: black;
   text-align: center;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
+}
+
+.content-container {
+  margin: auto;
+  max-width: 760px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
